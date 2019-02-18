@@ -1,5 +1,3 @@
-// import { stringify } from "querystring";
-
 /**
  * Напишите функцию capitalize(input), возвращающую копию строки input,
  * в которой каждое слово начинается с заглавной буквы.
