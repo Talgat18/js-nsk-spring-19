@@ -20,5 +20,14 @@
  * @return {boolean}
  */
 export function passwordCheck(password) {
+  const num = /[0-9]/g;
 
+  const sym = /[!?,.+-/=]/g;
+
+  const ch = /[A-Z][a-z]/g;
+
+  return !!(password.length >= 10
+    && num.test(password)
+    && sym.test(password)
+    && ch.test(password));
 }

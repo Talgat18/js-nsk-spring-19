@@ -1,3 +1,5 @@
+// import { stringify } from "querystring";
+
 /**
  * Напишите функцию capitalize(input), возвращающую копию строки input,
  * в которой каждое слово начинается с заглавной буквы.
@@ -14,4 +16,11 @@
  * @param  {string} input строка с произвольным предложением.
  * @return {string}
  */
-export function capitalize(input) {}
+export function capitalize(input) {
+  const result = input.toLowerCase().split(' ');
+
+  for (let i = 0; i < result.length; i++) {
+    result[i] = result[i].charAt(0).toUpperCase() + result[i].substring(1);
+  }
+  return result.join(' ');
+}

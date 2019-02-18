@@ -17,5 +17,15 @@
  * @return {{min: number, max: number}} объект с минимумом и максимумом
  */
 export function getMinMax(input) {
+  const result = input
+    .split(/,| /)
+    .map(item => parseFloat(item, 10))
+    .filter(Boolean);
+  const max = Math.max.apply(null, result);
+  const min = Math.min.apply(null, result);
 
+  return {
+    max,
+    min
+  };
 }

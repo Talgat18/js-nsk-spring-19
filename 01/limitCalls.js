@@ -20,5 +20,13 @@
  * @return {Function}
  */
 export function limitCalls(fn, maxCalls) {
+  let count = maxCalls;
 
+  return function decrement() {
+    if (count > 0) {
+      count -= 1;
+      return fn();
+    }
+    return undefined;
+  };
 }
