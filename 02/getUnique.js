@@ -12,4 +12,5 @@
  * @return {Set<any>} массив уникальных значений, отсортированный по возрастанию
  */
 export function getUnique(input) {
+  return input.filter((val, index) => input.indexOf(val) === index).sort();
 }
