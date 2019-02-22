@@ -12,4 +12,5 @@
  * @return {boolean}
  */
 export function anagram(first, second) {
+  return first.toLowerCase().split('').sort().join() === second.toLowerCase().split('').sort().join();
 }
