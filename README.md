@@ -2,8 +2,11 @@
 
 ![alt text](https://github.com/Talgat18/js-nsk-spring-19/blob/typeracer/typerace/screenshot.PNG)
 
+### Github Pages
 
-# Тинькофф Финтех, весна 2019. Javascript.  
+```
+https://talgat18.github.io/quoteracer/index.html
+```
 
 ### Rules
 
