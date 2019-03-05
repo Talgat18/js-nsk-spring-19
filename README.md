@@ -5,6 +5,11 @@
 
 # Тинькофф Финтех, весна 2019. Javascript.  
 
+### Rules
+
+```
+Press Enter to pause the game or click the button.
+```
 
 ### Установка
 
@@ -16,10 +21,4 @@ npm install
 
 ```
 npm run start
-```
-
-### Rules
-
-```
-Press Enter to pause the game or click the button.
 ```
