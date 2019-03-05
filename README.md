@@ -1,6 +1,6 @@
 
 
-![alt text](https://github.com/Talgat18/js-nsk-spring-19/blob/typeracer/typerace/dist/img/like.png)
+![alt text](https://github.com/Talgat18/js-nsk-spring-19/blob/typeracer/typerace/screenshot.PNG)
 
 
 
