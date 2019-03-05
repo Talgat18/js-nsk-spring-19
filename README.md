@@ -17,3 +17,9 @@ npm install
 ```
 npm run start
 ```
+
+### Rules
+
+```
+Press Enter to pause the game or click the button.
+```
