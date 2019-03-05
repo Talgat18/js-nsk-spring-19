@@ -1,7 +1,7 @@
 header {
   background: #d75a4a;
+  font-family: 'Gloria Hallelujah', cursive;
 }
-
 
 #seconds {
   color: #d75a4a;
@@ -17,7 +17,7 @@ header {
   background-color: #d75a4a;
   border-radius: 200px;
   border-width: 5px;
-  margin-bottom: 5%
+  margin-bottom: 5%;
 }
 
 #btn-pause:hover,
