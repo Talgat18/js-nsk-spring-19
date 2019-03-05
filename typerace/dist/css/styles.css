@@ -1,0 +1,26 @@
+header {
+  background: #d75a4a;
+}
+
+
+#seconds {
+  color: #d75a4a;
+}
+
+.lives {
+  position: relative;
+}
+
+#btn-pause {
+  color: #d75a4a;
+  border: 2px solid #d75a4a;
+  background-color: #d75a4a;
+  border-radius: 200px;
+  border-width: 5px;
+  margin-bottom: 5%
+}
+
+#btn-pause:hover,
+#btn-pause:active {
+  color: #4fd74a;
+}

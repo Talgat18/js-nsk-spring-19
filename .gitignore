@@ -20,6 +20,8 @@ bower_components/
 node_modules/
 jspm_packages/
 
+src/
+
 # Optional npm cache directory
 .npm
 

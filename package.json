@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "TFS Frontend JS Homework",
   "private": true,
-  "main": "index.js",
+  "main": "./typrece/src/js/main.js",
   "scripts": {
     "test": "npm run lint && npm run ava",
     "lint": "npm run lint:es && npm run lint:css",
@@ -11,7 +11,9 @@
     "lint:es": "eslint **/*.js",
     "lint:es:fix": "eslint --fix **/*.js",
     "lint:css": "stylelint **/*.css",
-    "ava": "ava tests/test-*.js"
+    "ava": "ava tests/test-*.js",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
   },
   "repository": {
     "type": "git",
@@ -36,9 +38,12 @@
     "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-react": "^7.11.1",
     "stylelint": "^9.9.0",
-    "stylelint-config-standard": "^18.2.0"
+    "stylelint-config-standard": "^18.2.0",
+    "webpack": "^4.29.6"
   },
   "dependencies": {
-    "delay": "^4.1.0"
+    "delay": "^4.1.0",
+    "gsap": "^2.1.2",
+    "webpack-cli": "^3.2.3"
   }
 }
