@@ -11,6 +11,12 @@
 Press Enter to pause the game or click the button.
 ```
 
+### API
+
+```
+https://fish-text.ru/
+```
+
 ### Установка
 
 ```
