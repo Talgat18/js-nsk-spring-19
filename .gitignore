@@ -19,6 +19,7 @@ coverage
 bower_components/
 node_modules/
 jspm_packages/
+typerace/
 
 # Optional npm cache directory
 .npm
