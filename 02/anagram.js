@@ -12,5 +12,11 @@
  * @return {boolean}
  */
 export function anagram(first, second) {
-  return first.toLowerCase().split('').sort().join() === second.toLowerCase().split('').sort().join();
+  const sorted = s => s
+    .toLowerCase()
+    .split('')
+    .sort()
+    .join();
+
+  return sorted(first) === sorted(second);
 }
